@@ -65,7 +65,8 @@ public class ModeloCadastro {
     public void setData(Date data) {
         this.data = data;
     }
-    
+
+        
     
     
 }

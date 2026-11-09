@@ -20,12 +20,10 @@ public class ControladorCadastro {
 
     private TelaDeCadastro tela;
     private ArrayList<ModeloCadastro> listaMovimentacoes;
-    private ModeloCadastro cadastroEmEdicao;
 
     public ControladorCadastro(TelaDeCadastro tela, ArrayList<ModeloCadastro> listaMovimentacoes) {
         this.tela = tela;
         this.listaMovimentacoes = listaMovimentacoes;
-        cadastroEmEdicao = null;
         atualizarID();
     }
 
@@ -79,18 +77,9 @@ public class ControladorCadastro {
             return;
         }
 
-        if (cadastroEmEdicao == null) {
-            ModeloCadastro novoCadastro = new ModeloCadastro(gerarID(), tipo, descricao, valor, data);
-            listaMovimentacoes.add(novoCadastro);
-            JOptionPane.showMessageDialog(tela, "Movimentação cadastrada com sucesso!");
-        } else {
-            cadastroEmEdicao.setTipo(tipo);
-            cadastroEmEdicao.setDescricao(descricao);
-            cadastroEmEdicao.setValor(valor);
-            cadastroEmEdicao.setData(data);
-            cadastroEmEdicao = null;
-            JOptionPane.showMessageDialog(tela, "Movimentação atualizada com sucesso!");
-        }
+        ModeloCadastro novoCadastro = new ModeloCadastro(gerarID(), tipo, descricao, valor, data);
+        listaMovimentacoes.add(novoCadastro);
+        JOptionPane.showMessageDialog(tela, "Movimentação cadastrada com sucesso!");
         limpar();
     }
 
@@ -99,19 +88,6 @@ public class ControladorCadastro {
         tela.getCampoValor().setText("");
         tela.getCampoData().setText("");
         tela.getCampoTipo().setSelectedIndex(0);
-        cadastroEmEdicao = null;
         atualizarID();
-    }
-
-    public void prepararEdicao(ModeloCadastro cadastro) {
-        if (cadastro == null) {
-            return;
-        }
-        cadastroEmEdicao = cadastro;
-        tela.getCampoID().setText(String.valueOf(cadastro.getId()));
-        tela.getCampoTipo().setSelectedItem(cadastro.getTipo());
-        tela.getCampoDescricao().setText(cadastro.getDescricao());
-        tela.getCampoValor().setText(String.valueOf(cadastro.getValor()).replace('.', ','));
-        tela.getCampoData().setText(new SimpleDateFormat("dd/MM/yyyy").format(cadastro.getData()));
     }
 }

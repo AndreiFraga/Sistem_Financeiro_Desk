@@ -8,7 +8,6 @@ import java.text.SimpleDateFormat;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Locale;
-import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import modelo.ModeloCadastro;
 import modelo.ModeloConsulta;
@@ -53,39 +52,8 @@ public class ControladorConsulta {
         }
         ModeloConsulta consulta = new ModeloConsulta(totalDespesas, totalReceitas, totalReceitas - totalDespesas);
         NumberFormat moeda = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
-
         tela.getTotalDespesas().setText(moeda.format(consulta.getTotalDespesas()));
         tela.getTotalReceitas().setText(moeda.format(consulta.getTotalReceitas()));
         tela.getSaldo().setText(moeda.format(consulta.getSaldo()));
-    }
-
-    public ModeloCadastro obterSelecionado() {
-        int linha = tela.getTabela().getSelectedRow();
-        if (linha == -1) {
-            JOptionPane.showMessageDialog(tela, "Selecione uma movimentação na tabela!");
-            return null;
-        }
-
-        int id = Integer.parseInt(tela.getTabela().getValueAt(linha, 0).toString());
-        for (ModeloCadastro cadastro : listaMovimentacoes) {
-            if (cadastro.getId() == id) {
-                return cadastro;
-            }
-        }
-        return null;
-    }
-
-    public void excluirSelecionado() {
-        ModeloCadastro cadastro = obterSelecionado();
-        if (cadastro == null) {
-            return;
-        }
-
-        int resposta = JOptionPane.showConfirmDialog(tela, "Deseja realmente excluir esta movimentação?", "Confirmar exclusão", JOptionPane.YES_NO_OPTION);
-        if (resposta == JOptionPane.YES_OPTION) {
-            listaMovimentacoes.remove(cadastro);
-            carregarTabela();
-            JOptionPane.showMessageDialog(tela, "Movimentação excluída com sucesso!");
-        }
     }
 }
