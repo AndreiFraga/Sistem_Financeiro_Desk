@@ -10,6 +10,10 @@ Escrita
 
 > O objetivo deste projeto é desenvolver um sistema de controle financeiro pessoal que permita aos usuários registrar e consultar suas movimentações financeiras, facilitando o acompanhamento de receitas, despesas e saldo disponível. Dessa forma, busca-se oferecer uma ferramenta simples e prática para auxiliar na organização e no planejamento financeiro.
 
+## Funcionalidades do Sistema
+> O presente sistema possibilita que o usuário possa cadastrar **receitas** (ganhos) e **despesas** (gastos). Ele faz isso através de cadastros, e cada cadastro possui um ID (atributo identificador), o que facilita a identificação dos cadastros. Em cada cadastro o usuário poderá escolher se deseja cadastrar uma **receita** ou **despesa**, além disso, poderá incluir uma breve descrição sobre cada cadastro, como por exemplo, **salário do mês, mercado, internet, luz**, etc. Na sequência, deve-se incluir o valor do respectivo cadastro e a **data**, que deve ser informada no modelo **dd/mm/yyyy**, sendo **dd** uma referência ao dia, que deve conter dois números, **mm** uma referência ao mês, que também deve conter dois números e **yyyy** uma referência ao ano, que deve conter quatro números. Caso o usuário não insira a data neste formato, ao salvar, o programa apresentará uma mensagem de erro, solicitando que o usuário informe a data neste modelo.
+
+> Após salvar, o usuário pode acessar uma tabela, que informa todos os cadastros feitos anteriormente, em ordem cronológica, ou seja, os registros apareceram na ordem em que foram cadastrados. Na parte superior da tela, também será possível visualizar o total de **receitas**, o total de **despesas** e o **saldo atual**, que é o quanto de dinheiro o usuário ainda têm disponível.
 
 ## 📋 Sobre o Projeto
 
