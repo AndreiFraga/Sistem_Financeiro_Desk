@@ -4,7 +4,7 @@ Escrita
 
 # Sistema de Controle Financeiro Pessoal
 
-> Este sistema visa auxiliar as pessoas na administração de seus recursos financeiros pessoais, permitindo que consigam ter o controle e o conhecimento de seus recursos, como por exemplo, quanto ganham, quanto gastam, com o que gastam, etc. Em síntese, o projeto visa permitir que as pessoas saibam por onde o seu dinheiro está entrando e saindo, o que pode ajudá-las a cortar gastos desnecessários, poupar dinheiro e evitar endividamentos.
+> Este sistema tem como objetivo auxiliar as pessoas na administração de seus recursos financeiros pessoais, permitindo que acompanhem suas receitas, despesas e movimentações financeiras. Em síntese, o projeto busca proporcionar maior controle e conhecimento sobre a entrada e a saída de dinheiro, contribuindo para a identificação de gastos desnecessários, o planejamento financeiro, a economia de recursos e a prevenção de endividamentos.
 
 ## 📋 Sobre o Projeto
 
