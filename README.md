@@ -2,9 +2,9 @@ Abaixo está um modelo de README.md profissional e organizado para documentar um
 
 Escrita
 
-# 🚀 Nome do Projeto
+# Sistema de Controle Financeiro Pessoal
 
-> Uma breve descrição do projeto, explicando seu objetivo e sua principal funcionalidade.
+> Este sistema visa auxiliar as pessoas na administração de seus recursos financeiros pessoais, permitindo que consigam ter o controle e o conhecimento de seus recursos, como por exemplo, quanto ganham, quanto gastam, com o que gastam, etc. Em síntese, o projeto visa permitir que as pessoas saibam por onde o seu dinheiro está entrando e saindo, o que pode ajudá-las a cortar gastos desnecessários, poupar dinheiro e evitar endividamentos.
 
 ## 📋 Sobre o Projeto
 
