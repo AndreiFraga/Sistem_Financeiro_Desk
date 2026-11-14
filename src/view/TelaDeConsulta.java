@@ -71,7 +71,15 @@ public class TelaDeConsulta extends javax.swing.JPanel {
             new String [] {
                 "ID", "Tipo", "Descrição", "Valor", "Data"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane1.setViewportView(jTable1);
 
         jLabel5.setText("R$");
