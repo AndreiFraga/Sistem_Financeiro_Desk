@@ -90,4 +90,22 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
  - Abra a **pasta** desejada, clique com o **botão direito do mouse** em uma **área vazia** e selecione a opção **Abrir no Terminal** ou **Open in Terminal**.
  - No terminal aberto, execute o seguinte comando:
 
-   `git clone `
+   `git clone https://github.com/AndreiFraga/Sistem_Financeiro_Desk.git`
+
+ - Aguarde a **conclusão da clonagem**. O Git criará automaticamente uma nova pasta contendo os arquivos do projeto.
+ - Abra o **Apache NetBeans**, selecione a opção **Open Project**, localizada no canto superior esquerdo e **localize a pasta recém-criada**.
+ - **Selecione o projeto e aguarde o carregamento dos arquivos**.
+
+**Observação:** para executar essa opção, é necessário **ter o Git instalado no computador**.
+
+## Melhorias Futuras
+
+> Como possibilidades de evolução do projeto, **algumas funcionalidades poderão ser desenvolvidas futuramente**, visando ampliar os **recursos disponíveis** e proporcionar uma melhor experiência ao usuário.
+
+ - **Armazenamento Permanente de Dados:** implementar um **banco de dados** para armazenar as movimentações financeiras, permitindo que os registros sejam mantidos mesmo após o **encerramento do programa**. Atualmente **os dados são armazenados de forma temporária** enquanto o programa está sendo executado.
+ - **Edição e Exclusão de Movimentações:** permitir que o usuário **altere ou remova** registros cadastrados anteriormente.
+ - **Filtros de consulta:** possibilitar a pesquisa de movimentações por **tipo** (receita ou despesa) e **data** (mais antigas e mais recentes). 
+
+## Autor
+
+> Projeto desenvolvido por **Andrei**, estudante do **Terceiro Ano do curso Técnico em Informática Integrado ao Ensino Médio do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS) – Campus Rolante**, como um trabalho avaliativo referente à disciplina de **Programação III**. 
