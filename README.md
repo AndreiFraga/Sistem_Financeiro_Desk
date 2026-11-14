@@ -21,6 +21,55 @@ Escrita
 
 > Na parte superior da tela de consulta, também são apresentados o **total de receitas, o total de despesas e o saldo atual**, calculado pela diferença entre as **receitas** e as **despesas**. Dessa forma, o usuário consegue acompanhar suas movimentações e verificar o resultado de sua organização financeira.
 
+## Tecnologias Utilizadas
+
+> Para o desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias e ferramentas:
+
+ - **Java:** linguagem de programação utilizada para desenvolver a lógica e as funcionalidades do sistema.
+ - **Apache NetBeans:** ambiente de desenvolvimento integrado (IDE) utilizado para escrever, organizar e executar o código.
+ - **Git:** sistema de controle de versão utilizado para acompanhar as alterações realizadas no projeto.
+ - **GitHub:** plataforma utilizada para hospedar o repositório e disponibilizar o código-fonte do projeto.
+
+## Estrutura do Projeto (Padrão MVC)
+
+> O projeto foi desenvolvido utilizando o padrão **MVC (Model - View - Controller)**, que organiza o código em três partes principais: **Modelo, Visão e Controlador**. Essa organização facilita a manutenção, a compreensão e a organização do sistema, separando os dados, as interfaces gráficas e as regras de funcionamento.
+
+### Organização dos Pacotes
+
+- **Modelo (Model):** contém as classes responsáveis por representar e armazenar os dados utilizados pelo sistema, como as informações das movimentações financeiras e os valores das consultas.
+ - **View (View):** contém as classes responsáveis pelas interfaces gráficas, permitindo que o usuário interaja com o sistema por meio das telas de cadastro e consulta, que podem ser acessadas através da tela inicial.
+ - **Controlador (Controller):** contém as classes responsáveis por controlar as funcionalidades do sistema, realizar validações, processar os dados e realizar as trocas de tela.
+
+## Instalação do Java (JDK) e Apache NetBeans
+
+> Para executar e, caso desejado, modificar este projeto, é necessário instalar o **Java Development Kit (JDK)** e o **Apache NetBeans** em seu computador.
+
+### Instalação do Java (JDK)
+
+> O **JDK** é o kit de desenvolvimento do Java, necessário para compilar, desenvolver e executar aplicações nessa linguagem.
+
+> **Para instalá-lo:**
+
+  - **Acesse o site oficial da Oracle:** (https://www.oracle.com/br/java/technologies/downloads/).
+  - Localize a seção **Java SE Development Kit 25** (JDK 25).
+  - Escolha a opção correspondente ao seu sistema operacional (**Windows, macOS ou Linux**).
+  - Faça o download do instalador.
+  - **Execute o arquivo baixado e siga as instruções apresentadas na tela**.
+
+### Instalação do Apache NetBeans
+
+> Após instalar o **JDK**, podemos instalar o ambiente de desenvolvimento utilizado neste projeto.
+
+  - **Acesse o site oficial do Apache NetBeans:** (https://netbeans.apache.org/front/main/download/).
+  - Acesse a página de **downloads** e baixe a **versão 31**, que atualmente é a versão mais recente, além de ser **compatível com o JDK 25**.
+  - Escolha o pacote de instalação **compatível com seu sistema operacional**.
+  - Faça o download e execute o instalador, **seguindo as instruções apresentadas na tela**.
+  - Após concluir a instalação, abra o Apache NetBeans para verificar se está funcionando corretamente.
+
+#### Observação
+
+> Este projeto foi desenvolvido utilizando **Java 25 e Apache NetBeans**. Portanto, recomenda-se utilizar o **JDK 25** para garantir a compatibilidade com a configuração original do projeto.
+
 ## 📋 Sobre o Projeto
 
 Descreva aqui o projeto, seu propósito, os problemas que ele busca resolver e suas principais características.
