@@ -1,10 +1,6 @@
-Abaixo está um modelo de README.md profissional e organizado para documentar um projeto no GitHub. Ele pode ser adaptado para projetos de desenvolvimento web, APIs, aplicações mobile, sistemas ou bibliotecas.
-
-Escrita
-
 # Sistema de Controle Financeiro Pessoal
 
-> Este sistema tem como objetivo auxiliar as pessoas na administração de seus recursos financeiros pessoais, permitindo que acompanhem suas receitas, despesas e movimentações financeiras. Em síntese, o projeto busca proporcionar maior controle e conhecimento sobre a entrada e a saída de dinheiro, contribuindo para a identificação de gastos desnecessários, o planejamento financeiro, a economia de recursos e a prevenção de endividamentos.
+Este sistema tem como objetivo auxiliar as pessoas na administração de seus recursos financeiros pessoais, permitindo que acompanhem suas receitas, despesas e movimentações financeiras. Em síntese, o projeto busca proporcionar maior controle e conhecimento sobre a entrada e a saída de dinheiro, contribuindo para a identificação de gastos desnecessários, o planejamento financeiro, a economia de recursos e a prevenção de endividamentos.
 
 ## Objetivos do Trabalho
 
@@ -70,171 +66,28 @@ Escrita
 
 > Este projeto foi desenvolvido utilizando **Java 25 e Apache NetBeans**. Portanto, recomenda-se utilizar o **JDK 25** para garantir a compatibilidade com a configuração original do projeto.
 
-## 📋 Sobre o Projeto
+## Como Baixar e Executar o Projeto
 
-Descreva aqui o projeto, seu propósito, os problemas que ele busca resolver e suas principais características.
+> Esta seção apresenta as etapas necessárias para baixar, abrir e executar o projeto no Apache NetBeans. São disponibilizadas duas opções para obter os arquivos: o **download direto pelo GitHub** ou a **clonagem do repositório utilizando o Git**.
 
-## ✨ Funcionalidades
+### Baixando o Projeto pelo GitHub
 
-- [x]Funcionalidade principal.
-- [x]Segunda funcionalidade.
-- [ ]Funcionalidade em desenvolvimento.
-- [ ]Funcionalidade futura.
+ - Acesse o **repositório do projeto** no GitHub.
+ - Clique no botão **Code** e selecione a opção **Download ZIP**.
+ - Aguarde o **download** e extraia o arquivo em uma **pasta de sua preferência**.
+ - Abra o **Apache NetBeans**.
+ - Selecione a opção **Open Project** (Abrir Projeto), no canto **superior esquerdo**.
+ - Localize a pasta extraída e **selecione o projeto**.
+ - Aguarde o carregamento dos arquivos.
 
-## 🛠️ Tecnologias Utilizadas
+### Baixando o Projeto Utilizando o Git
 
-As principais tecnologias utilizadas no desenvolvimento:
+> Outra possibilidade é **clonar** o repositório diretamente para o computador utilizando o **Git**.
 
-- **Linguagem:** \[Ex.: JavaScript, Python, Java\]
-- **Frontend:** \[Ex.: React, Angular, Vue\]
-- **Backend:** \[Ex.: Node.js, Django, Spring Boot\]
-- **Banco de Dados:** \[Ex.: PostgreSQL, MySQL, MongoDB\]
-- **Outras ferramentas:** \[Ex.: Git, Docker, Figma\]
+ - Acesse o **repositório do projeto** no GitHub.
+ - Clique no botão **Code** e copie o endereço **HTTPS** disponibilizado.
+ - Localize a **pasta** em que deseja armazenar o projeto. Como exemplo, você pode utilizar a pasta **NetBeansProjects**, geralmente localizada em **Documentos**.
+ - Abra a **pasta** desejada, clique com o **botão direito do mouse** em uma **área vazia** e selecione a opção **Abrir no Terminal** ou **Open in Terminal**.
+ - No terminal aberto, execute o seguinte comando:
 
-## 📦 Instalação
-
-Siga os passos abaixo para executar o projeto localmente.
-
-### 1\. Clone o repositório
-
-bash
-
-```bash
-git clone https://github.com/usuario/nome-do-projeto.git
-```
-
-### 2\. Acesse a pasta do projeto
-
-bash
-
-```bash
-cd nome-do-projeto
-```
-
-### 3\. Instale as dependências
-
-bash
-
-```bash
-npm install
-```
-
-### 4\. Execute o projeto
-
-bash
-
-```bash
-npm run dev
-```
-
-## ⚙️ Configuração
-
-Caso necessário, crie um arquivo `.env` na raiz do projeto e configure as variáveis de ambiente:
-
-env
-
-```env
-PORT=3000
-DATABASE_URL=sua_url_do_banco
-API_KEY=sua_chave_de_api
-```
-
-**Observação:** Nunca compartilhe credenciais ou chaves secretas no repositório.
-
-## 📁 Estrutura do Projeto
-
-text
-
-```text
-nome-do-projeto/
-│
-├── src/
-│   ├── components/
-│   ├── services/
-│   └── main.js
-│
-├── public/
-├── tests/
-├── .env.example
-├── .gitignore
-├── package.json
-└── README.md
-```
-
-## 🖥️ Demonstração
-
-Adicione aqui imagens, GIFs ou links para uma demonstração do projeto.
-
-- **Demo:** [Acessar demonstração](<https://exemplo.com>)
-- **Repositório:** GitHub
-
-## 🧪 Testes
-
-Para executar os testes do projeto:
-
-bash
-
-```bash
-npm test
-```
-
-## 🤝 Como Contribuir
-
-Contribuições são sempre bem-vindas\!
-
-1. Faça um Fork do projeto.
-2. Crie uma branch para sua funcionalidade:
-
-bash
-
-```bash
-git checkout -b feature/nova-funcionalidade
-```
-
-3. Faça suas alterações e commit:
-
-bash
-
-```bash
-git commit -m "feat: adiciona nova funcionalidade"
-```
-
-4. Envie para o repositório:
-
-bash
-
-```bash
-git push origin feature/nova-funcionalidade
-```
-
-5. Abra um Pull Request.
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT.
-
-Consulte o arquivo LICENSE para mais informações.
-
-## 👨‍💻 Autor
-
-**Seu Nome**
-
-- GitHub: @seuusuario
-- LinkedIn: Seu perfil
-- E-mail: seuemail@exemplo.com
-
----
-
-⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório\!
-
-## 💡 Dica
-
-Um bom README deve permitir que qualquer pessoa entenda rapidamente:
-
-1. O que é o projeto?
-2. Qual problema ele resolve?
-3. Quais tecnologias foram utilizadas?
-4. Como instalar e executar?
-5. Como contribuir?
-
-Você pode usar esse modelo como base para praticamente qualquer repositório no GitHub.
+   `git clone `
