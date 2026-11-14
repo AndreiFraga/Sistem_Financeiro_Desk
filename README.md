@@ -6,6 +6,11 @@ Escrita
 
 > Este sistema tem como objetivo auxiliar as pessoas na administração de seus recursos financeiros pessoais, permitindo que acompanhem suas receitas, despesas e movimentações financeiras. Em síntese, o projeto busca proporcionar maior controle e conhecimento sobre a entrada e a saída de dinheiro, contribuindo para a identificação de gastos desnecessários, o planejamento financeiro, a economia de recursos e a prevenção de endividamentos.
 
+## Objetivos do Trabalho
+
+> O objetivo deste projeto é desenvolver um sistema de controle financeiro pessoal que permita aos usuários registrar e consultar suas movimentações financeiras, facilitando o acompanhamento de receitas, despesas e saldo disponível. Dessa forma, busca-se oferecer uma ferramenta simples e prática para auxiliar na organização e no planejamento financeiro.
+
+
 ## 📋 Sobre o Projeto
 
 Descreva aqui o projeto, seu propósito, os problemas que ele busca resolver e suas principais características.
