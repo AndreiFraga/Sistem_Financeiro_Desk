@@ -11,7 +11,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 > Durante o cadastro, o usuário deve selecionar o **tipo de movimentação, escolhendo entre receita ou despesa**. Também deve informar uma breve **descrição**, como, por exemplo, **salário do mês, mercado, internet e luz** além do respectivo **valor** e da **data**.
 
-> A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário informe uma data inválida ou utilize um formato diferente, o sistema apresentará uma mensagem de erro. 
+> A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário informe uma data inválida, utilize um formato de data diferente, ou esqueça de preencher algum campo o sistema apresentará uma mensagem de aviso para que o usuário possa realizar à devida correção. 
 
 > Após o cadastro, o usuário pode acessar uma tabela que apresenta todas as movimentações registradas anteriormente, incluindo seu **ID, tipo, descrição, valor e data**, organizadas na ordem em que foram cadastradas.
 
@@ -33,7 +33,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 ### Organização dos Pacotes
 
 - **Modelo (Model):** contém as classes responsáveis por representar e armazenar os dados utilizados pelo sistema, como as informações das movimentações financeiras e os valores das consultas.
- - **View (View):** contém as classes responsáveis pelas interfaces gráficas, permitindo que o usuário interaja com o sistema por meio das telas de cadastro e consulta, que podem ser acessadas através da tela inicial.
+ - **Visão (View):** contém as classes responsáveis pelas interfaces gráficas, permitindo que o usuário interaja com o sistema por meio das telas de cadastro e consulta, que podem ser acessadas através da tela inicial.
  - **Controlador (Controller):** contém as classes responsáveis por controlar as funcionalidades do sistema, realizar validações, processar os dados e realizar as trocas de tela.
 
 ## Instalação do Java (JDK) e Apache NetBeans
@@ -97,6 +97,37 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
  - **Selecione o projeto e aguarde o carregamento dos arquivos**.
 
 **Observação:** para executar essa opção, é necessário **ter o Git instalado no computador**.
+
+### Executando o Programa
+
+> Agora vamos aprender a fazer a execução deste sistema.
+
+ - Com o projeto aberto no Apache NetBeans, clique no botão **Run Project** (Executar Projeto), ícone verde que está localizado na parte superior da tela. Se tiver dúvidas, **passe o mouse em cima dos ícones até encontrar "Run Project"**.
+ - Aguarde a **inicialização do programa**. A tela inicial do sistema será apresentada.
+ - Clique no botão **Cadastrar** para acessar a tela de cadastro de movimentações financeiras.
+
+### Realizando os Primeiros Cadastros
+
+> Agora, com o programa rodando, vamos aprender a **cadastrar movimentações financeiras**, começando com o cadastro de uma **receita** (dinheiro que você recebeu).
+
+ - Na tela de cadastro, selecione o tipo **Receita**.
+ - Informe uma descrição, como por exemplo, **"Salário do mês"**, o seu respectivo **valor** e uma **data válida**, no formato apresentado anteriormente (**dd/MM/yyyy**).
+ - Clique no botão **Salvar** para registrar a movimentação.
+ - Em seguida, realize outro **cadastro**, selecionando o tipo **Despesa**.
+ - Informe uma **descrição**, como por exemplo, **"Mercado"**, o respectivo **valor** e a **data**.
+ - Clique novamente em **Salvar** para registrar a movimentação.
+ - E **pronto**, você **acabou de concluir o seu primeiro cadastro de receita e o seu primeiro cadastro de despesa**.
+
+### Consultando as Movimentações
+
+> Agora que você cadastrou sua primeira receita e a sua primeira despesa, vamos aprender a **consultar esses cadastros, visualizando-os na tabela**.
+
+ - Após realizar os cadastros, clique no botão **Consultar** para acessar a tela de consulta.
+ - Verifique se as movimentações cadastradas aparecem corretamente na tabela.
+ - Confira os valores apresentados na parte superior da tela, incluindo o **total de receitas, o total de despesas e o saldo atual**.
+ - Caso deseje realizar novos cadastros (sejam eles de novas receitas ou de novas despesas), clique novamente no botão **Cadastrar**.
+
+> **Observação:** os dados são armazenados de forma **temporária**, portanto, após **fechar o programa, as movimentações cadastradas serão perdidas**, sendo necessário registrá-las novamente ao iniciar o programa.
 
 ## Melhorias Futuras
 
