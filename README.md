@@ -32,9 +32,9 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 ### Organização dos Pacotes
 
-- **Modelo (Model):** contém as classes responsáveis por representar e armazenar os dados utilizados pelo sistema, como as informações das movimentações financeiras e os valores das consultas.
+ - **Modelo (Model):** contém as classes responsáveis por representar e armazenar os dados utilizados pelo sistema, como as informações das movimentações financeiras e os valores das consultas.
  - **Visão (View):** contém as classes responsáveis pelas interfaces gráficas, permitindo que o usuário interaja com o sistema por meio das telas de cadastro e consulta, que podem ser acessadas através da tela inicial.
- - **Controlador (Controller):** contém as classes responsáveis por controlar as funcionalidades do sistema, realizar validações, processar os dados e realizar as trocas de tela.
+ - **Controlador (Controller):** contém as classes responsáveis por controlar as funcionalidades do sistema, realizar os cálculos, processar os dados e realizar as trocas de tela.
 
 ## Instalação do Java (JDK) e Apache NetBeans
 
