@@ -11,7 +11,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 > Durante o cadastro, o usuário deve selecionar o **tipo de movimentação, escolhendo entre receita ou despesa**. Também deve informar uma breve **descrição**, como, por exemplo, **salário do mês, mercado, internet e luz** além do respectivo **valor** e da **data**.
 
-> A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário informe uma data inválida, utilize um formato de data diferente, ou esqueça de preencher algum campo o sistema apresentará uma mensagem de aviso para que o usuário possa realizar à devida correção. 
+> A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário esqueça de preencher qualquer um dos campos, o programa apresentará um **aviso para que ele preencha-o**.
 
 > Após o cadastro, o usuário pode acessar uma tabela que apresenta todas as movimentações registradas anteriormente, incluindo seu **ID, tipo, descrição, valor e data**, organizadas na ordem em que foram cadastradas.
 
