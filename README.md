@@ -57,7 +57,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 > Após instalar o **JDK**, podemos instalar o ambiente de desenvolvimento utilizado neste projeto.
 
   - **Acesse o site oficial do Apache NetBeans:** (https://netbeans.apache.org/front/main/download/).
-  - Acesse a página de **downloads** e baixe a **versão 31**, que atualmente é a versão mais recente, além de ser **compatível com o JDK 25**.
+  - Acesse a página de **downloads** e baixe a versão mais recente.
   - Escolha o pacote de instalação **compatível com seu sistema operacional**.
   - Faça o download e execute o instalador, **seguindo as instruções apresentadas na tela**.
   - Após concluir a instalação, abra o Apache NetBeans para verificar se está funcionando corretamente.
