@@ -9,9 +9,9 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 ## Funcionalidades do Sistema
 > O sistema permite que o usuário cadastre **receitas** (ganhos) e **despesas** (gastos) por meio de um formulário. Cada cadastro recebe o seu próprio **ID** (identificador) gerado automaticamente, facilitando sua identificação.
 
-> Durante o cadastro, o usuário deve selecionar o tipo de cadastro que ele deseja fazer **(receita ou despesa)**. Além disso, o usuário também deve informar uma breve **descrição,** como **salário do mês, mercado, internet e luz**, além de fornecer o **valor** e a **data**.
+> Durante o cadastro, o usuário deve selecionar o tipo de cadastro que ele deseja fazer **(receita ou despesa)**. Além disso, o usuário também deve informar uma breve **descrição,** como **salário do mês, mercado, internet e luz**, além de fornecer o **valor** e a **date**.
 
-> A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário esqueça de preencher qualquer um dos campos, o programa apresentará uma mensagem de aviso, solicitando que o usuário preencha os campos que faltam.
+> A date deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário esqueça de preencher qualquer um dos campos, o programa apresentará uma mensagem de aviso, solicitando que o usuário preencha os campos que faltam.
 
 > Após o cadastro, o usuário pode acessar uma tabela que apresenta todas as movimentações registradas anteriormente, incluindo seu **ID, tipo, descrição, valor e data**, organizadas na ordem em que foram cadastradas.
 
@@ -111,10 +111,10 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 > Agora, com o programa rodando, vamos aprender a **cadastrar movimentações financeiras**, começando com o cadastro de uma **receita** (dinheiro que você recebeu).
 
  - Na tela de cadastro, selecione o tipo **Receita**.
- - Informe uma descrição, como por exemplo, **"Salário do mês"**, o seu respectivo **valor** e uma **data válida**, no formato apresentado anteriormente (**dd/MM/yyyy**).
+ - Informe uma descrição, como por exemplo, **"Salário do mês"**, o seu respectivo **valor** e uma **date válida**, no formato apresentado anteriormente (**dd/MM/yyyy**).
  - Clique no botão **Salvar** para registrar a movimentação.
  - Em seguida, realize outro **cadastro**, selecionando o tipo **Despesa**.
- - Informe uma **descrição**, como por exemplo, **"Mercado"**, o respectivo **valor** e a **data**.
+ - Informe uma **descrição**, como por exemplo, **"Mercado"**, o respectivo **valor** e a **date**.
  - Clique novamente em **Salvar** para registrar a movimentação.
  - E **pronto**, você **acabou de concluir o seu primeiro cadastro de receita e o seu primeiro cadastro de despesa**.
 
@@ -135,7 +135,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
  - **Armazenamento Permanente de Dados:** implementar um **banco de dados** para armazenar as movimentações financeiras, permitindo que os registros sejam mantidos mesmo após o **encerramento do programa**. Atualmente, **os dados são armazenados de forma temporária** enquanto o programa está sendo executado.
  - **Edição e Exclusão de Movimentações:** permitir que o usuário **altere ou remova** registros cadastrados anteriormente.
- - **Filtros de consulta:** possibilitar a pesquisa de movimentações por **tipo** (receita ou despesa) e **data** (como por exemplo, as mais antigas e as mais recentes). 
+ - **Filtros de consulta:** possibilitar a pesquisa de movimentações por **tipo** (receita ou despesa) e **date** (como por exemplo, as mais antigas e as mais recentes). 
 
 ## Autor
 
