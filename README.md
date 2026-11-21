@@ -38,7 +38,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 ## Instalação do Java (JDK) e Apache NetBeans
 
-> Para executar e, caso desejado, modificar este projeto, é necessário instalar o **Java Development Kit (JDK)** e o **Apache NetBeans** em seu computador.
+> Para executar e caso deseje, modificar este projeto, é necessário instalar o **Java Development Kit (JDK)** e o **Apache NetBeans** em seu computador.
 
 ### Instalação do Java (JDK)
 
