@@ -9,7 +9,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 ## Funcionalidades do Sistema
 > O sistema permite que o usuário cadastre **receitas** (ganhos) e **despesas** (gastos) por meio de um formulário. Cada movimentação recebe um **ID** (identificador) gerado automaticamente, facilitando sua identificação.
 
-> Durante o cadastro, o usuário deve selecionar o **tipo de movimentação, escolhendo entre receita ou despesa**. Também deve informar uma breve **descrição**, como, por exemplo, **salário do mês, mercado, internet e luz** além do respectivo **valor** e da **data**.
+> Durante o cadastro, o usuário deve selecionar o tipo de movimentação, escolhendo entre receita ou despesa. Também deve informar uma breve **descrição**, como, por exemplo, **salário do mês, mercado, internet e luz** além do respectivo **valor** e da data.
 
 > A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário esqueça de preencher qualquer um dos campos, o programa apresentará uma mensagem de aviso, solicitando que o usuário preencha os campos que faltam.
 
