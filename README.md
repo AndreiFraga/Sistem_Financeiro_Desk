@@ -13,7 +13,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 > A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário esqueça de preencher qualquer um dos campos, o programa apresentará uma mensagem de aviso, solicitando que o usuário preencha os campos que faltam.
 
-> Após o cadastro, o usuário pode acessar uma tabela que apresenta todas as movimentações registradas anteriormente, incluindo seu **ID, tipo, descrição, valor e date**, organizadas na ordem em que foram cadastradas.
+> Após o cadastro, o usuário pode acessar uma tabela que apresenta todas as movimentações registradas anteriormente, incluindo seu **ID, tipo, descrição, valor e data**, organizadas na ordem em que foram cadastradas.
 
 > Na parte superior da tela de consulta, também são apresentados o **total de receitas, o total de despesas e o saldo atual**, que é a diferença entre as **receitas** e as **despesas**. Dessa forma, o usuário consegue acompanhar suas movimentações e verificar o resultado de sua organização financeira.
 
