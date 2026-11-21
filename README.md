@@ -7,15 +7,15 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 > O objetivo deste projeto é desenvolver um sistema de controle financeiro pessoal que permita aos usuários registrar e consultar suas movimentações financeiras, facilitando o acompanhamento de receitas, despesas e saldo disponível. Dessa forma, busca-se oferecer uma ferramenta simples e prática para auxiliar na organização e no planejamento financeiro.
 
 ## Funcionalidades do Sistema
-> O sistema permite que o usuário cadastre **receitas** (ganhos) e **despesas** (gastos) por meio de um formulário. Cada movimentação recebe um **ID** (identificador) gerado automaticamente, facilitando sua identificação.
+> O sistema permite que o usuário cadastre **receitas** (ganhos) e **despesas** (gastos) por meio de um formulário. Cada cadastro recebe o seu próprio **ID** (identificador) gerado automaticamente, facilitando sua identificação.
 
-> Durante o cadastro, o usuário deve selecionar o tipo de cadastro que ele deseja fazer **(receita ou despesa)**. Também deve informar uma breve **descrição**, como, por exemplo, **salário do mês, mercado, internet e luz** além do respectivo **valor** e da data em que ocorreu a movimentação.
+> Durante o cadastro, o usuário deve selecionar o tipo de cadastro que ele deseja fazer **(receita ou despesa)**. Também deve informar uma breve **descrição,** como, por exemplo, **salário do mês, mercado, internet e luz**, além de fornecer o **valor** e a **date**.
 
 > A data deve ser informada no formato **dd/MM/yyyy**, sendo **dd** a representação do dia, com dois dígitos; **MM** a representação do mês, também com dois dígitos; e **yyyy** a representação do ano, com quatro dígitos. Caso o usuário esqueça de preencher qualquer um dos campos, o programa apresentará uma mensagem de aviso, solicitando que o usuário preencha os campos que faltam.
 
-> Após o cadastro, o usuário pode acessar uma tabela que apresenta todas as movimentações registradas anteriormente, incluindo seu **ID, tipo, descrição, valor e data**, organizadas na ordem em que foram cadastradas.
+> Após o cadastro, o usuário pode acessar uma tabela que apresenta todas as movimentações registradas anteriormente, incluindo seu **ID, tipo, descrição, valor e date**, organizadas na ordem em que foram cadastradas.
 
-> Na parte superior da tela de consulta, também são apresentados o **total de receitas, o total de despesas e o saldo atual**, calculado pela diferença entre as **receitas** e as **despesas**. Dessa forma, o usuário consegue acompanhar suas movimentações e verificar o resultado de sua organização financeira.
+> Na parte superior da tela de consulta, também são apresentados o **total de receitas, o total de despesas e o saldo atual**, que é a diferença entre as **receitas** e as **despesas**. Dessa forma, o usuário consegue acompanhar suas movimentações e verificar o resultado de sua organização financeira.
 
 ## Tecnologias Utilizadas
 
@@ -28,7 +28,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 ## Estrutura do Projeto (Padrão MVC)
 
-> O projeto foi desenvolvido utilizando o padrão **MVC (Model - View - Controller)**, que organiza o código em três partes principais: **Modelo, Visão e Controlador**. Essa organização facilita a manutenção, a compreensão e a organização do sistema, separando os dados, as interfaces gráficas e as regras de funcionamento.
+> O projeto foi desenvolvido utilizando o padrão **MVC (Model - View - Controller)**, que organiza o código em três partes principais: **Modelo, Visão e Controlador.** Essa organização facilita a manutenção, a compreensão e a organização do sistema, separando os dados, as interfaces gráficas e as regras de funcionamento.
 
 ### Organização dos Pacotes
 
