@@ -93,7 +93,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
    `git clone https://github.com/AndreiFraga/Sistem_Financeiro_Desk.git`
 
  - Aguarde a **conclusão da clonagem**. O Git criará automaticamente uma nova pasta contendo os arquivos do projeto.
- - Abra o **Apache NetBeans**, selecione a opção **Open Project**, localizada no canto superior esquerdo e **localize a pasta recém-criada**.
+ - Abra o **Apache NetBeans**, selecione a opção **Open Project**, localizada no canto superior esquerdo, e **localize a pasta recém-criada**.
  - **Selecione o projeto e aguarde o carregamento dos arquivos**.
 
 **Observação:** para executar essa opção, é necessário **ter o Git instalado no computador**.
