@@ -102,7 +102,7 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 > Agora vamos aprender a fazer a execução deste sistema.
 
- - Com o projeto aberto no Apache NetBeans, clique no botão **Run Project** (Executar Projeto), ícone verde que está localizado na parte superior da tela. Se tiver dúvidas, **passe o mouse em cima dos ícones até encontrar "Run Project"**.
+ - Com o projeto aberto no Apache NetBeans, clique no botão **Run Project** (Executar Projeto), ícone verde que está localizado na parte superior da tela. Se tiver dúvidas, **passe o mouse sobre os ícones até encontrar "Run Project"**.
  - Aguarde a **inicialização do programa**. A tela inicial do sistema será apresentada.
  - Clique no botão **Cadastrar** para acessar a tela de cadastro de movimentações financeiras.
 
@@ -133,9 +133,9 @@ Este sistema tem como objetivo auxiliar as pessoas na administração de seus re
 
 > Como possibilidades de evolução do projeto, **algumas funcionalidades poderão ser desenvolvidas futuramente**, visando ampliar os **recursos disponíveis** e proporcionar uma melhor experiência ao usuário.
 
- - **Armazenamento Permanente de Dados:** implementar um **banco de dados** para armazenar as movimentações financeiras, permitindo que os registros sejam mantidos mesmo após o **encerramento do programa**. Atualmente **os dados são armazenados de forma temporária** enquanto o programa está sendo executado.
+ - **Armazenamento Permanente de Dados:** implementar um **banco de dados** para armazenar as movimentações financeiras, permitindo que os registros sejam mantidos mesmo após o **encerramento do programa**. Atualmente, **os dados são armazenados de forma temporária** enquanto o programa está sendo executado.
  - **Edição e Exclusão de Movimentações:** permitir que o usuário **altere ou remova** registros cadastrados anteriormente.
- - **Filtros de consulta:** possibilitar a pesquisa de movimentações por **tipo** (receita ou despesa) e **data** (mais antigas e mais recentes). 
+ - **Filtros de consulta:** possibilitar a pesquisa de movimentações por **tipo** (receita ou despesa) e **data** (como por exemplo, as mais antigas e as mais recentes). 
 
 ## Autor
 
